@@ -1,0 +1,9 @@
+<h2>Color Picker TOAN</h2>
+
+<select [(ngModel)]="background">
+  <option style="background: #EFFBFB" value="#EFFBFB"></option>
+  <option style="background: #81F7F3" value="#81F7F3"></option>
+  <option style="background: #2EFE2E" value="#2EFE2E"></option>
+  <option style="background: #B40431" value="#B40431"></option>
+</select>
+<div class="color-preview" [style.background]="background"></div>
